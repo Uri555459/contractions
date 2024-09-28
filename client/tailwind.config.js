@@ -60,8 +60,10 @@ export default {
 				'light-gray-color': '#ADADAD',
 			},
 			backgroundImage: {
-				'purple-gradient':
+				'purple-light-gradient':
 					'linear-gradient(180deg, #ffe6ff 0%, #fffafe 50.89%)',
+				'purple-red-gradient':
+					'linear-gradient(90deg, #a07eff 0%, #ff7ea5 100%);',
 			},
 		},
 	},
