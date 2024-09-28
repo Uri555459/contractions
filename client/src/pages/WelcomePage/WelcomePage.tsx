@@ -3,12 +3,12 @@ import { Link, useNavigate } from 'react-router-dom'
 
 import { Button } from '@/components/ui/button'
 
+import type { IClassName } from '@/@types/className.interface'
+
 import { ROUTES } from '@/constants'
 import { cn } from '@/lib/utils'
 
-interface Props {
-	className?: string
-}
+interface Props extends IClassName {}
 
 export const WelcomePage: FC<Props> = ({ className }) => {
 	const navigate = useNavigate()
