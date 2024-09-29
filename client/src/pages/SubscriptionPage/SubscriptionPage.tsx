@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import { PriceButton } from '@/components/ui/priceButton'
 
 import type { IClassName } from '@/@types/className.interface'
 
@@ -48,6 +49,9 @@ export const SubscriptionPage: FC<Props> = ({ className }) => {
 						Отправка истории схваток на электронную почту
 					</li>
 				</ul>
+
+				<PriceButton></PriceButton>
+
 				<Button
 					variant='default'
 					onClick={handleClick}
