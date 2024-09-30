@@ -58,6 +58,7 @@ export default {
 				'light-color': '#fffafe',
 				'gray-color': '#696969',
 				'light-gray-color': '#ADADAD',
+				'red-color': '#ff7ea5',
 			},
 			backgroundImage: {
 				'purple-light-gradient':

@@ -33,9 +33,8 @@ export const WelcomePage: FC<Props> = ({ className }) => {
 					находитесь
 				</p>
 				<Button
-					variant='default'
 					onClick={handleClick}
-					className='mb-3 w-full rounded-full bg-purple-color p-5 font-medium text-white'
+					className='mb-3 w-full rounded-full bg-purple-color p-5 font-medium text-white hover:bg-purple-color/80'
 				>
 					Продолжить
 				</Button>
