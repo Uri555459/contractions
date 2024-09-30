@@ -3,10 +3,11 @@ import { Link, useNavigate } from 'react-router-dom'
 
 import { Button } from '@/components/ui/button'
 
+import { cn } from '@/lib/utils'
+
 import type { IClassName } from '@/@types/className.interface'
 
 import { ROUTES } from '@/constants'
-import { cn } from '@/lib/utils'
 
 interface Props extends IClassName {}
 

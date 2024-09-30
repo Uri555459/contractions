@@ -3,9 +3,9 @@ import type { FC } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
-import { IClassName } from '@/@types/className.interface'
-
 import { cn } from '@/lib/utils'
+
+import { IClassName } from '@/@types/className.interface'
 
 interface Props extends IClassName {
 	onClick?: () => void

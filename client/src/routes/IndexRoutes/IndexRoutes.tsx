@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
-import { SubscriptionPage, WelcomePage } from '@/pages'
+import { HomePage, SubscriptionPage, WelcomePage } from '@/pages'
 
 interface Props {
 	className?: string
@@ -9,12 +9,16 @@ interface Props {
 
 const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/welcome',
 		element: <WelcomePage />,
 	},
 	{
 		path: '/subscription',
 		element: <SubscriptionPage />,
+	},
+	{
+		path: '/',
+		element: <HomePage />,
 	},
 ])
 
